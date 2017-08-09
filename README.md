@@ -6,6 +6,11 @@ This project, nicknamed FDF for the French phrase fil de fer, is a 3-d wireframe
 
 ## Key Details
 
+3d_wireframe works by first reading in the contents of a file ending in '.fdf' and checking it's validity. This is done in various ways, including setting vertical and horizontal bounds and checking the length of each line successfully parsed into the environment struct. The reading and parsing is performed in the 'parse_in' function, mainly between lines 52 to 58.
+
+<img width="580" alt="screen shot 2017-08-09 at 2 43 29 pm" src="https://user-images.githubusercontent.com/13093517/29146488-3f2dbda4-7d16-11e7-893a-39ed39c337a4.png">
+
+The 'get_next_line' function reads the content of each line in the file to the string 'line'. This string is then converted into a  2-d array of integers and promptly stores this data inside the grid member of the environment struct. In line 55, the code compares each 1-d array inside the 2-d grid against the original 1d-array to check for proper width. For each successful run of the loop, the contents of the 'line' variable are freed in order for the variable to be recycled and the height is incremented before the code reads the next line.
 
 ## Implementation
 
