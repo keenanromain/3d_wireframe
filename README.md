@@ -21,6 +21,7 @@ The last key function is the 'run_bresenham' function which performs any final c
 <img width="571" alt="screen shot 2017-08-09 at 2 46 06 pm" src="https://user-images.githubusercontent.com/13093517/29147617-071e9e04-7d1d-11e7-8bd0-986ad72c4bec.png">
 
 A very visual demonstration of these properties is shown in the **Implementation** section with the '42' graphic displaying all three colors in appropriate fashion. For more on the Bresenham Line Drawing Algorithm and my favorite resource for this project, please explore the link below:
+
 http://www.geeksforgeeks.org/bresenhams-line-generation-algorithm/
 
 ## Implementation
