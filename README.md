@@ -13,6 +13,7 @@ This project, nicknamed FDF for the French phrase fil de fer, is a 3-d wireframe
 The 'get_next_line' function reads the content of each line in the file to the string 'line'. This string is then converted into a  2-d array of integers and promptly stores this data inside the grid member of the environment struct. In line 55, the code compares each 1-d array inside the 2-d grid against the original 1d-array to check for proper width. For each successful run of the loop, the contents of the 'line' variable are freed in order for the variable to be recycled and the height is incremented before the code reads the next line.
 
 
+
 The next key function is the 'image_loop' function where the coordinates successfully read and parsed in the 'parse_in' function are staged before being plotted as pixels in the 'run_bresenham' function. In order to stage every coordinate, two loops are nested within each other with a call to the 'set_bresenham' function to perform the needed calculations for each set of coordinates. Note that the inner loops variable 'j' on line 85 begins at an index of 0 rather than -1 despite the prefix incrementation of the inner loop. This is because the 0th position of the width stores the entire length of the width, rather than input data from the file.
 
 <img width="513" alt="screen shot 2017-08-09 at 2 45 13 pm" src="https://user-images.githubusercontent.com/13093517/29147211-8b1a6c90-7d1a-11e7-950c-486312d886bf.png">
