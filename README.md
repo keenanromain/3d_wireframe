@@ -27,7 +27,7 @@ http://www.geeksforgeeks.org/bresenhams-line-generation-algorithm/
 
 ## Implementation
 
-To run this project, clone this repo into your command-line and generate the executable via the make command.
+To run this project, clone this repo into your terminal and generate the executable via the make command.
 ```
 git clone https://github.com/keenanromain/3d_wireframe.git
 cd 3d_wireframe
