@@ -6,7 +6,7 @@ This project, nicknamed FDF for the French phrase fil de fer, is a 3-d wireframe
 
 ## Key Details
 
-3d_wireframe works by reading in the contents of a file ending in '.fdf' and then checking for it's validity. The validity testing is done in many ways and the function below demonstrates two such ways; checking the vertical and horizontal bounds of a given file's input and comparing the length of each line in the file to it's primary one. When given a valid file, 'parse_in' performs as it's name implies by reading and parsing the input into the environment data structure.
+3d_wireframe works by reading in the contents of a file ending in '.fdf' and then checking for it's validity. The validity testing is done in many ways and the function below demonstrates two such ways; checking the vertical and horizontal bounds of a given file's input and comparing the length of each line in the file to it's primary one. When given a valid file, *parse_in* performs as it's name implies by reading and parsing the input into the environment data structure.
 
 <img width="580" alt="screen shot 2017-08-09 at 2 43 29 pm" src="https://user-images.githubusercontent.com/13093517/29146488-3f2dbda4-7d16-11e7-893a-39ed39c337a4.png">
 
