@@ -33,11 +33,11 @@ git clone https://github.com/keenanromain/3d_wireframe.git
 cd 3d_wireframe
 make
 ```
-A successful make command will output that an executable called 'fdf' has been created. In the test-maps directory, there are a number of valid maps that will display the functionality of this project. From the root directory of the cloned repo, a command like:
+A successful make command will output that an executable called 'fdf' has been created. In the test-maps directory, there are a number of valid maps that will display the functionality of this project. From the root directory of the cloned repo, a command like...
 ```
 ./fdf test-maps/42.fdf
 ```
-will generate the following:
+...will generate the following:
 
 <img width="1993" alt="screen shot 2017-08-09 at 2 23 11 pm" src="https://user-images.githubusercontent.com/13093517/29146164-b572dece-7d14-11e7-9478-07bda5905f13.png">
 
