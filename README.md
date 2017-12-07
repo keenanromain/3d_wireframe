@@ -25,7 +25,7 @@ A very simple demonstration of these properties is shown below in the **Implemen
 
 http://www.geeksforgeeks.org/bresenhams-line-generation-algorithm/
 
-## Implementation
+## Implementation (Mac OSX Sierra)
 
 To run this project, clone this repo into your terminal and generate the executable via the make command.
 ```
